@@ -11,11 +11,13 @@ namespace Internship_Training.Sessions
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if(!IsPostBack)
+            if (!IsPostBack)
             {
                 bindddl();
             }
-            
+
+
+
         }
 
         protected void bindddl()

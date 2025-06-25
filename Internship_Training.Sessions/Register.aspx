@@ -19,6 +19,12 @@
                     <asp:TextBox ID="txtContact" TextMode="Number" CssClass="form-control" runat="server"></asp:TextBox>
 
                 </div>
+                 <div class="mb-3 mt-3">
+                    <label>Email:</label>
+                    <asp:TextBox ID="txtEmail" TextMode="Email" CssClass="form-control" runat="server"></asp:TextBox>
+
+                </div>
+
                 <div class="mb-3 mt-3">
                     <label>Select City:</label>
                     <asp:DropDownList CssClass="form-control" runat="server" ID="ddlCity">
@@ -30,7 +36,7 @@
 
 
                 </div>
-                <asp:Button runat="server" CssClass="btn btn-success" ID="btnSubmit" Text="Register Now" />
+                <asp:Button runat="server" CssClass="btn btn-success" OnClick="btnSubmit_Click" ID="btnSubmit" Text="Register Now" />
             </div>
         </div>
 

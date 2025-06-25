@@ -11,8 +11,16 @@ namespace Internship_Training.Sessions
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            txtName.Text = Request.QueryString["name"].ToString();
-            txtContact.Text = Request.QueryString["contact"];
+            if(Request.QueryString["name"] != null)
+            {
+                txtName.Text = Request.QueryString["name"].ToString();
+                txtContact.Text = Request.QueryString["contact"];
+            }
+            else
+            {
+                Response.Redirect("QS1.aspx");  
+            }
+            
 
             // txtName.Text = Request.QueryString[0];
             //txtContact.Text = Request.QueryString[1];
