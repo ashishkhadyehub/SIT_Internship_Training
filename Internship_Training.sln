@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Internship_Training.Sessions", "Internship_Training.Sessions\Internship_Training.Sessions.csproj", "{34DD771D-C563-451D-BEBF-BB7DE6BDCC0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMP", "EMP\EMP.csproj", "{869733BE-356C-4DF2-8A2A-A86FC5D62DAF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{34DD771D-C563-451D-BEBF-BB7DE6BDCC0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34DD771D-C563-451D-BEBF-BB7DE6BDCC0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34DD771D-C563-451D-BEBF-BB7DE6BDCC0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{869733BE-356C-4DF2-8A2A-A86FC5D62DAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{869733BE-356C-4DF2-8A2A-A86FC5D62DAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{869733BE-356C-4DF2-8A2A-A86FC5D62DAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{869733BE-356C-4DF2-8A2A-A86FC5D62DAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
